@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "==2.3.3"
+flask-sqlalchemy = "==3.1.1"
+flask-migrate = "==4.0.4"
+flask-cors = "==4.0.0"
+flask-bcrypt = "==1.0.1"
+flask-login = "==0.6.2"
+flask-session = "*"
+python-dotenv = "==1.0.0"
+psycopg2-binary = "==2.9.7"
+marshmallow = "==3.20.1"
+marshmallow-sqlalchemy = "==0.29.0"
+faker = "*"
+pyjwt = "*"
+
+[dev-packages]
+autopep8 = "*"
+
+[requires]
+python_version = "3.11"
